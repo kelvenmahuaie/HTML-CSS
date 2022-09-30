@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse; 
+            position: relative; 
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: rgb(37, 37, 37);
+            color: white;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(37, 37, 37);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>67 434 870</td>
+            </tr>
+            <tr>
+                <td>Brasília</td>
+                <td>70 500 656</td>
+            </tr>
+            <tr>
+                <td>Goiais</td>
+               <td>2 800 456</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <th>0000</th>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut rerum inventore eveniet alias tempora deserunt sint perferendis quidem sequi repellendus. Et doloremque voluptas, porro repellat tenetur vero expedita delectus architecto?Lorem ipsum dolor sit amet consectetur adipisicing elit. In veritatis, vel explicabo ex hic reprehenderit cum accusantium, atque ducimus rem aspernatur dignissimos nisi exercitationem quis ad, esse reiciendis mollitia repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tempore repellat beatae harum similique ex fuga dolor iure eius velit. Adipisci quaerat impedit nostrum at nihil tempore, molestias excepturi accusantium?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab velit aspernatur illum, animi voluptatibus autem ratione quos itaque ea ducimus rem repellat mollitia omnis laborum dolorum asperiores maxime! Natus, voluptatibus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae praesentium possimus tempore doloremque quas, numquam, dolorum dolores ea, accusamus excepturi velit modi alias nostrum nam debitis harum fugit fuga quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sunt deserunt modi nam quas. Sequi natus fuga corporis, consequatur quam odio eos odit! Quos et quis veniam illo? Maiores, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem dicta at quam perferendis, laboriosam ratione ipsum, sapiente totam quibusdam aperiam, expedita ipsa vero iusto. Accusantium ipsam eum quasi error natus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium tenetur consectetur facilis libero architecto ipsam similique? Blanditiis earum cumque, accusantium totam, consequatur est voluptates quo necessitatibus quidem nam voluptate excepturi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, temporibus odit. Corporis exercitationem excepturi debitis hic quidem, accusantium molestias maiores, vero aperiam minus vitae harum cupiditate itaque voluptatem officiis aspernatur!Loremlorem
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repudiandae, suscipit dolor aliquid fuga alias explicabo, similique non fugit maiores, quod omnis accusantium facilis nulla cum excepturi ipsam libero praesentium?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad, amet, repudiandae dolorem, voluptatum expedita ipsa magnam omnis incidunt labore quas fugiat ipsum dicta corrupti exercitationem animi laudantium provident? Hic?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid assumenda dicta est! Iure reiciendis corporis maiores amet id, ipsam, vero perspiciatis praesentium distinctio mollitia, hic reprehenderit minus laboriosam alias enim.</p>
+</body>
+</html>

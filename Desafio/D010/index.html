@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 550px;
+            text-align: center;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nome</th>
+                <th colspan="4" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Adriano Sitoe</td>
+                <td>Star war</td>
+                <td>Pinóquio</td>
+                <td>Titanic</td>
+            </tr>
+            <tr>
+                <td>Maria Mondlane</td>
+                <td>Fast furious</td>
+                <td>Aquaman</td>
+                <td>Spider man</td>
+            </tr>
+            <tr>
+                <td>Mário de Sousa</td>
+                <td>Super man</td>
+                <td>Venom</td>
+                <td>Scarlate</td>
+            </tr>
+             <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Vinícios Augusto</td>
+                <td>Anaconda</td>
+                <td>Arqueiro</td>
+                <td>Rango</td>
+            </tr>
+            <tr>
+                <td>Judite Sitoe</td>
+                <td>Mr Bean</td>  
+                <td>Os Simpsons</td>
+                <td>Os titans</td>
+            </tr>
+            <tr>
+                <td>Valter Titos</td>
+                <td>The vinkings</td>
+                <td>Os minions</td>
+                <td>Groot</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

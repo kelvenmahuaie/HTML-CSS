@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+                <optiongroup aria-label="São Paulo">
+                    <option value="mg">Minas Gerais</option>
+                    <option value="SP">São Paulo</option>
+                </optiongroup>
+            </select>
+            
+        </p>
+        <p>
+            <label for="iprof"></label>
+            <input type="text" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option value="ADM">Administrador</option>
+                <option value="Med">Médico</option>
+
+            </datalist>
+        </p>
+        <p>
+            <label for="imens">Mensagem</label><br>
+            <textarea name="mens" id="imens" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        
+    </form>
+</body>
+</html>

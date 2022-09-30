@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-mz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários despositivos diferentes ou simplesmente aumente e dimunua o tamanho do seu Navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Peq.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="imagens/Med.png" type="image/png">
+        <img src="imagens/Grad.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audio no HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav"> <!--Não é aconselhável usar (pesado)--->
+        <p>Infelizmente seu navegador não consegue reproduzir este audio <a href="midia/happy-mistake.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <video width="500px" poster="imagens/Peq.png" controls autoplay loop>
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/meu-video.m4v" type="video/mp4">
+        <source src="video/meu-video.webm" type="video/webm">
+        <source src="video/meu-video.ogv" type="video/ogg"> <!--mas caro-->
+    </video>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tnHG6jukvGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--mas barato-->
+</body>
+</html>
