@@ -13,6 +13,8 @@ html, body {
 
 header {
     background-image: linear-gradient(to right, #481152, #ff0ac9);
+    color: white;
+    box-shadow: 2px 2px 5px black;
 }
 
 header > h1 {
